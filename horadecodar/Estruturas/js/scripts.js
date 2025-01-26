@@ -7,14 +7,6 @@ nome = "Cleiton Ferreira";
 
 console.log(nome);
 
-// aqui e um erro de programacao nao posso fazer isso  const e uma variavel que nao pode ser alterada
-
-const idade = 31;
-
-console.log(idade);
-
-idade = 32;
-
 // 2 mais sobre variaveis
 
 // let 2teste = "invalido";   codigo invalido  nao pode comecar com numero
@@ -40,4 +32,47 @@ let $teste = "valido";
 
 console.log(_teste, $teste);
 
+// 3 - prompt
+//const age = prompt("Qual sua idade?");
 
+//console.log(`voce tem ${age} anos`);
+
+// 4 - Alert
+
+//alert("Seja bem vindo");
+
+//const z = 10;
+
+//alert(z);
+
+// 5 - math
+
+//console.log(Math.max(5, 2, 10, 15,));
+
+//console.log(math.floor(5.9));
+
+//console.log(math.ceil(5.14));
+
+//console.log(Math.round(5.5));
+
+// 6 - console
+
+//console.log("Hello World");
+
+//console.error("Erro");
+
+//console.warn("Aviso");
+
+// 7 - if
+
+const m = 10;
+
+if(m>10){
+
+    console.log(" M e maior que 10");
+}
+const user = "cleiton";
+
+if(user === "cleiton"){
+    console.log("Usuario correto");
+}
